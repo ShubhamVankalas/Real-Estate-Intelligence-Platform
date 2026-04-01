@@ -9,13 +9,10 @@ import uuid
 from ai_utils import extract_entities, generate_insights
 
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # Config
 DATA_DIR = "data"
-FMP_API_KEY = os.getenv("FMP_API_KEY")
+FMP_API_KEY = st.secrets("FMP_API_KEY")
 GBP_TO_USD = 1.27
 EUR_TO_USD = 1.08
 

@@ -3,12 +3,9 @@ import json
 import time
 import re
 from groq import Groq
-from dotenv import load_dotenv
 
-load_dotenv()
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_API_KEY = st.secrets("GROQ_API_KEY")
+MODEL = st.secrets("GROQ_MODEL")
 RATE_LIMIT_DELAY = 3
 
 client = Groq(api_key=GROQ_API_KEY)
