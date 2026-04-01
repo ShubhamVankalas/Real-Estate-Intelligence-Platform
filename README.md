@@ -46,6 +46,7 @@ Create a new file named `.env` in the same folder as `app.py`. Open it and add t
 ```
 FMP_API_KEY="your_fmp_api_key"
 GEMINI_API_KEY="your_api_key_here"
+GROQ_MODEL="your_model_name"
 ```
 
 ### 5. Run the Data Pipeline
