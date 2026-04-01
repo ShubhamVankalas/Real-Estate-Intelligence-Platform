@@ -42,7 +42,6 @@ Make sure you create a folder named `data` inside the main project folder. Put y
 ### 4. Create your `.env` File
 Create a new file named `.env` in the same folder as `app.py`. Open it and add these lines with your actual keys:
 ```
-DATA_DIR="data"
 FMP_API_KEY="your_fmp_api_key"
 GEMINI_API_KEY="your_api_key_here"
 ```
