@@ -7,3 +7,4 @@ plotly
 feedparser
 pydantic
 python-dotenv
+groq
