@@ -1,5 +1,7 @@
 # Real Estate Intelligence Platform
 
+DEPLOYED LINK: https://real-estate-intelligence-platform.streamlit.app/
+
 This project is a dashboard that combines data from different places—like spreadsheets, news sites, and housing prices—and turns them into easy-to-read charts and insights. 
 
 Instead of looking at raw rows of data, this tool helps you instantly see what is happening in the real estate market, like where money is going and what news reporters are talking about. You can even ask the system questions in plain English to get facts about the data.
