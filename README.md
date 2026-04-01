@@ -39,10 +39,10 @@ pip install -r requirements.txt
 ```
 
 ### 3. Add your Data Files
-Make sure you create a folder named `data` inside the main project folder. Put your CSVs (`homes.csv`, `zillow.csv`, `cities.csv`) and your commercial real estate Excel file into this `data` folder.
+Make sure you create a folder named `data` inside the main project folder. Put your CSVs (`homes.csv`, `zillow.csv`, `cities.csv`,`Real-Estate-Capital-Europe-Sample-CRE-Lending-Data.xlsx`) and your commercial real estate Excel file into this `data` folder.
 
-### 4. Create your `.env` File
-Create a new file named `.env` in the same folder as `app.py`. Open it and add these lines with your actual keys:
+### 4. Create your `secrets.toml` File
+Create a new file named `secrets.toml` in the same folder as `.streamlit`. Open it and add these lines with your actual keys:
 ```
 FMP_API_KEY="your_fmp_api_key"
 GEMINI_API_KEY="your_api_key_here"
